@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reental - Estrategia de Crecimiento Personalizada | Copy Estratega</title>
+  <meta name="description" content="Auditoria y estrategia de crecimiento construida especificamente para Reental por Copy Estratega.">
+  <meta property="og:title" content="Reental - Estrategia de Crecimiento Personalizada">
+  <meta property="og:description" content="Auditoria y estrategia de crecimiento construida especificamente para Reental por Copy Estratega.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png">
+  <meta property="og:url" content="https://danigdecelis.github.io/reental-strategy/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Reental - Estrategia de Crecimiento Personalizada">
+  <meta name="twitter:description" content="Auditoria y estrategia de crecimiento construida especificamente para Reental por Copy Estratega.">
+  <link rel="icon" type="image/png" href="https://storage.googleapis.com/gpt-engineer-file-uploads/ENnY1cQr8yb82cqirDaLRejSItf1/uploads/1759866240739-LeadLinker%20Logo%20Favicon%20.png">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #C9A84C;
+      --gold-dark: #A8893A;
+      --gold-light: rgba(201, 168, 76, 0.08);
+      --gold-border: rgba(201, 168, 76, 0.2);
+      --dark: #0A0A0A;
+      --dark-mid: #1A1A1A;
+      --body-text: #555555;
+      --muted: #999999;
+      --off-white: #F8F6F0;
+      --white: #FFFFFF;
+      --black: #000000;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--dark-mid);
+      background: var(--white);
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(10,10,10,0.97);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+      padding: 0 40px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav img { height: 48px; }
+    .nav-cta {
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      background: transparent;
+      padding: 10px 22px;
+      border-radius: 6px;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .nav-cta:hover { background: var(--gold); color: var(--dark); }
+
+    /* LAYOUT */
+    .container { max-width: 800px; margin: 0 auto; padding: 0 32px; }
+
+    /* SECTION COLORS */
+    .section-dark { background: var(--dark); }
+    .section-white { background: var(--white); }
+    .section-offwhite { background: var(--off-white); }
+
+    /* CARDS */
+    .card {
+      padding: 80px 0;
+    }
+    .card-dark { border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .card-light { border-bottom: 1px solid rgba(0,0,0,0.05); }
+
+    /* SECTION LABELS */
+    .section-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--gold);
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    /* HEADINGS */
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(32px, 5vw, 52px);
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      line-height: 1.15;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(26px, 4vw, 38px);
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      line-height: 1.25;
+    }
+    h3 {
+      font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+    h4 {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    /* TEXT ON DARK */
+    .section-dark h1,
+    .section-dark h2,
+    .section-dark h3,
+    .section-dark h4 { color: var(--white); }
+    .section-dark p,
+    .section-dark li,
+    .section-dark span:not(.section-label):not(.gold-text) { color: rgba(255,255,255,0.7); }
+
+    /* TEXT ON LIGHT */
+    .section-white h1,
+    .section-white h2,
+    .section-white h3,
+    .section-white h4,
+    .section-offwhite h1,
+    .section-offwhite h2,
+    .section-offwhite h3,
+    .section-offwhite h4 { color: var(--dark-mid); }
+    .section-white p,
+    .section-white li,
+    .section-offwhite p,
+    .section-offwhite li { color: var(--body-text); font-size: 16px; }
+
+    p { margin-bottom: 16px; }
+    p:last-child { margin-bottom: 0; }
+
+    /* HERO ALERT */
+    .hero-alert {
+      background: var(--gold);
+      color: var(--dark);
+      font-size: 18px;
+      font-weight: 700;
+      padding: 18px 40px;
+      border-radius: 4px;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    /* VIDEO EMBED */
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 10px;
+      border: 1px solid var(--gold-border);
+      margin-bottom: 32px;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: none;
+    }
+
+    /* TOC */
+    .toc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 32px;
+    }
+    .toc-item {
+      border: 1px solid var(--gold-border);
+      border-radius: 6px;
+      padding: 18px 22px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .toc-num {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      min-width: 20px;
+      padding-top: 2px;
+    }
+    .toc-content {}
+    .toc-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 2px;
+    }
+    .toc-desc {
+      font-size: 13px;
+      color: rgba(255,255,255,0.5) !important;
+      line-height: 1.4;
+    }
+
+    /* FINDING CARDS */
+    .finding-card {
+      background: var(--off-white);
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin-bottom: 16px;
+    }
+    .finding-card:last-child { margin-bottom: 0; }
+    .finding-card h4 { font-size: 15px; font-weight: 700; color: var(--dark-mid); margin-bottom: 8px; }
+    .finding-card p { font-size: 14px; color: var(--body-text); line-height: 1.6; margin-bottom: 0; }
+    .section-dark .finding-card {
+      background: rgba(255,255,255,0.04);
+      border-color: rgba(255,255,255,0.08);
+    }
+    .section-dark .finding-card h4 { color: var(--white); }
+    .section-dark .finding-card p { color: rgba(255,255,255,0.6); }
+
+    /* URL CHIP */
+    .url-chip {
+      display: inline-block;
+      background: rgba(201,168,76,0.1);
+      border: 1px solid var(--gold-border);
+      border-radius: 4px;
+      padding: 6px 14px;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 28px;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    /* NUMBERED LIST */
+    .numbered-list { list-style: none; }
+    .numbered-list li {
+      display: flex;
+      gap: 18px;
+      margin-bottom: 20px;
+      align-items: flex-start;
+    }
+    .numbered-list li:last-child { margin-bottom: 0; }
+    .num-badge {
+      min-width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1.5px solid var(--gold);
+      background: var(--dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .num-badge-light {
+      min-width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1.5px solid var(--gold);
+      background: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* JOURNEY */
+    .journey {
+      margin: 32px 0 0 0;
+      border-left: 2px solid var(--gold-border);
+      padding-left: 28px;
+    }
+    .journey-step {
+      position: relative;
+      margin-bottom: 28px;
+    }
+    .journey-step:last-child { margin-bottom: 0; }
+    .journey-dot {
+      position: absolute;
+      left: -37px;
+      top: 4px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      background: var(--dark);
+    }
+    .journey-step h4 { color: var(--white); margin-bottom: 6px; font-size: 14px; font-weight: 700; }
+    .journey-step p { font-size: 14px; color: rgba(255,255,255,0.6) !important; margin-bottom: 0; line-height: 1.6; }
+
+    /* STATS */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 8px;
+    }
+    .stat-block {
+      border: 1px solid var(--gold-border);
+      border-radius: 10px;
+      padding: 28px 24px;
+    }
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+      font-weight: 800;
+      color: var(--gold);
+      letter-spacing: -1px;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .stat-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .stat-desc {
+      font-size: 13px;
+      color: rgba(255,255,255,0.5) !important;
+      line-height: 1.5;
+    }
+
+    /* LEAD MAGNET CARDS */
+    .lm-list { list-style: none; margin-top: 8px; }
+    .lm-item {
+      display: flex;
+      gap: 20px;
+      padding: 24px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      align-items: flex-start;
+    }
+    .lm-item:last-child { border-bottom: none; }
+    .lm-num {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--gold);
+      min-width: 24px;
+      padding-top: 3px;
+    }
+    .lm-title { font-size: 15px; font-weight: 700; color: var(--dark-mid); margin-bottom: 6px; }
+    .lm-desc { font-size: 14px; color: var(--body-text); line-height: 1.6; margin-bottom: 0; }
+    .lm-badge {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--dark);
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 3px 10px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    .lm-item-featured { background: var(--gold-light); border-radius: 10px; padding: 24px; border: 1px solid var(--gold-border); margin-bottom: 8px; }
+    .lm-item-featured .lm-title { color: var(--dark-mid); }
+
+    /* EXAMPLE PAGE PREVIEW */
+    .preview-card {
+      border: 1px solid var(--gold-border);
+      border-radius: 10px;
+      overflow: hidden;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      transition: all 0.25s;
+      margin-bottom: 20px;
+    }
+    .preview-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 8px 32px rgba(201,168,76,0.15);
+      transform: translateY(-4px);
+    }
+    .preview-hero {
+      padding: 40px 32px;
+      font-family: 'Fustat', 'Inter', sans-serif;
+    }
+    .preview-hero-es {
+      background: linear-gradient(160deg, #FFFFFF 0%, #FEF3D7 55%, #FDDFAD 100%);
+    }
+    .preview-hero-en {
+      background: linear-gradient(160deg, #FFFFFF 0%, #FEF3D7 55%, #FDDFAD 100%);
+    }
+    .preview-badge {
+      display: inline-block;
+      background: rgba(252,163,17,0.15);
+      border: 1px solid rgba(252,163,17,0.3);
+      color: #FCA311;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+    .preview-headline {
+      font-size: 22px;
+      font-weight: 800;
+      color: #111827;
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+    .preview-headline span { color: #FCA311; }
+    .preview-subtext {
+      font-size: 13px;
+      color: #374151;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+    .preview-cta {
+      display: inline-block;
+      background: #FCA311;
+      color: #111827;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 12px 24px;
+      border-radius: 50px;
+    }
+    .preview-bar {
+      background: var(--off-white);
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .preview-url {
+      font-size: 12px;
+      color: var(--muted);
+      font-family: 'Inter', monospace;
+    }
+    .preview-link {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gold);
+    }
+
+    /* GUARANTEE */
+    .guarantee-box {
+      background: var(--gold-light);
+      border: 1px solid var(--gold-border);
+      border-radius: 10px;
+      padding: 32px 36px;
+      margin-bottom: 40px;
+    }
+    .guarantee-quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--dark-mid);
+      line-height: 1.5;
+      font-style: italic;
+    }
+
+    .guarantee-steps { margin-top: 36px; }
+    .guarantee-step {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 24px;
+      align-items: flex-start;
+    }
+    .guarantee-step:last-child { margin-bottom: 0; }
+    .g-num {
+      min-width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      background: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--gold);
+      flex-shrink: 0;
+    }
+    .g-content {}
+    .g-who {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .g-title { font-size: 15px; font-weight: 700; color: var(--dark-mid); margin-bottom: 4px; }
+    .g-desc { font-size: 14px; color: var(--body-text); margin-bottom: 0; line-height: 1.6; }
+
+    /* CTA SECTIONS */
+    .cta-section { padding: 80px 0; }
+    .cta-top-rule { border-top: 1px solid rgba(201,168,76,0.3); padding-top: 80px; }
+    .cta-email-block {
+      font-size: 16px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.75;
+      margin-bottom: 28px;
+    }
+    .cta-or {
+      text-align: center;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      color: rgba(255,255,255,0.25);
+      margin: 28px 0;
+    }
+    .cta-btn {
+      display: inline-block;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      background: transparent;
+      padding: 16px 36px;
+      border-radius: 6px;
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+    .cta-btn:hover { background: var(--gold); color: var(--dark); }
+
+    /* FAQ */
+    .faq-item {
+      background: var(--off-white);
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: 10px;
+      padding: 26px 28px;
+      margin-bottom: 12px;
+    }
+    .faq-item:last-child { margin-bottom: 0; }
+    .faq-q { font-size: 15px; font-weight: 700; color: var(--dark-mid); margin-bottom: 10px; }
+    .faq-a { font-size: 14px; color: var(--body-text); line-height: 1.7; margin-bottom: 0; }
+
+    /* ABOUT */
+    .about-card {
+      background: var(--off-white);
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: 10px;
+      padding: 36px;
+    }
+    .about-header {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    .about-photo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    .about-name { font-size: 18px; font-weight: 700; color: var(--dark-mid); margin-bottom: 4px; }
+    .about-title { font-size: 13px; color: var(--muted); margin-bottom: 0; }
+    .about-links { display: flex; gap: 20px; margin-top: 8px; }
+    .about-link { font-size: 13px; color: var(--gold); font-weight: 600; text-decoration: none; }
+    .about-link:hover { color: var(--gold-dark); }
+    .about-bio { font-size: 15px; color: var(--body-text); line-height: 1.75; margin-bottom: 0; }
+
+    /* FOOTER */
+    footer {
+      background: var(--dark);
+      border-top: 1px solid rgba(201, 168, 76, 0.15);
+      padding: 48px 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+    footer img { height: 36px; }
+    .footer-copy {
+      font-size: 13px;
+      color: rgba(255,255,255,0.4);
+    }
+
+    /* DIVIDER */
+    .gold-rule { border: none; border-top: 1px solid rgba(201,168,76,0.2); margin: 32px 0; }
+
+    /* TRANSITION CARD */
+    .transition-card { text-align: center; padding: 80px 0; }
+    .transition-card h2 { margin-bottom: 20px; }
+    .transition-card p { color: rgba(255,255,255,0.7); max-width: 600px; margin: 0 auto; font-size: 16px; }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      nav { padding: 0 20px; }
+      .container { padding: 0 20px; }
+      .card { padding: 56px 0; }
+      .toc-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: 1fr; }
+      .hero-alert { padding: 16px 20px; font-size: 15px; }
+      .about-header { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#"><img src="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png" alt="Copy Estratega"></a>
+  <button class="nav-cta" onclick="Calendly.initPopupWidget({url:'https://calendly.com/danigdecelis/meeting'});return false;">Reservar Llamada</button>
+</nav>
+
+<!-- CARD 1: HERO (dark) -->
+<section class="section-dark" style="padding-top: 64px;">
+  <div class="container">
+    <div class="card card-dark">
+      <span class="section-label">Estrategia Personalizada</span>
+      <h1 style="margin-bottom: 32px;">Reental<br>Estrategia de Crecimiento</h1>
+
+      <div class="hero-alert">No te saltes el video de arriba</div>
+
+      <div class="video-wrapper">
+        <iframe src="about:blank" title="Video estrategia Reental" allowfullscreen></iframe>
+      </div>
+
+      <hr class="gold-rule">
+      <p style="font-size: 16px; color: rgba(255,255,255,0.7);">Este documento fue construido especificamente para Reental. Cada hallazgo, cada recomendacion y cada ejemplo esta basado en tu web real, tus anuncios activos, tus canales sociales y tu funnel actual.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 2: TOC (white) -->
+<section class="section-white">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Lo Que Encontraras Aqui</span>
+      <h2 style="margin-bottom: 12px;">Todo lo que cubre este documento</h2>
+      <p style="margin-bottom: 0;">Siete bloques. De la auditoria a la propuesta concreta.</p>
+
+      <div class="toc-grid" style="margin-top: 36px;">
+        <div style="border: 1px solid rgba(0,0,0,0.08); border-radius: 6px; padding: 18px 22px; display: flex; gap: 14px;">
+          <span style="font-size: 12px; font-weight: 800; color: var(--gold); min-width: 20px;">01</span>
+          <div>
+            <div style="font-size: 14px; font-weight: 700; color: var(--dark-mid); margin-bottom: 2px;">La Auditoria</div>
+            <div style="font-size: 13px; color: var(--muted);">Lo que encontramos en tu LinkedIn, tu web y tus anuncios</div>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(0,0,0,0.08); border-radius: 6px; padding: 18px 22px; display: flex; gap: 14px;">
+          <span style="font-size: 12px; font-weight: 800; color: var(--gold); min-width: 20px;">02</span>
+          <div>
+            <div style="font-size: 14px; font-weight: 700; color: var(--dark-mid); margin-bottom: 2px;">Los Problemas</div>
+            <div style="font-size: 13px; color: var(--muted);">Lo que te esta costando leads cualificados ahora mismo</div>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(0,0,0,0.08); border-radius: 6px; padding: 18px 22px; display: flex; gap: 14px;">
+          <span style="font-size: 12px; font-weight: 800; color: var(--gold); min-width: 20px;">03</span>
+          <div>
+            <div style="font-size: 14px; font-weight: 700; color: var(--dark-mid); margin-bottom: 2px;">Los Numeros</div>
+            <div style="font-size: 13px; color: var(--muted);">Lo que ese agujero cuesta cada mes</div>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(0,0,0,0.08); border-radius: 6px; padding: 18px 22px; display: flex; gap: 14px;">
+          <span style="font-size: 12px; font-weight: 800; color: var(--gold); min-width: 20px;">04</span>
+          <div>
+            <div style="font-size: 14px; font-weight: 700; color: var(--dark-mid); margin-bottom: 2px;">Lead Magnets Sugeridos</div>
+            <div style="font-size: 13px; color: var(--muted);">Ideas para capturar emails y construir tu pipeline propio</div>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(0,0,0,0.08); border-radius: 6px; padding: 18px 22px; display: flex; gap: 14px;">
+          <span style="font-size: 12px; font-weight: 800; color: var(--gold); min-width: 20px;">05</span>
+          <div>
+            <div style="font-size: 14px; font-weight: 700; color: var(--dark-mid); margin-bottom: 2px;">La Pagina de Ejemplo</div>
+            <div style="font-size: 13px; color: var(--muted);">Dos versiones mejoradas de tu landing, ya construidas</div>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(0,0,0,0.08); border-radius: 6px; padding: 18px 22px; display: flex; gap: 14px;">
+          <span style="font-size: 12px; font-weight: 800; color: var(--gold); min-width: 20px;">06</span>
+          <div>
+            <div style="font-size: 14px; font-weight: 700; color: var(--dark-mid); margin-bottom: 2px;">Que Mas Construiriamos</div>
+            <div style="font-size: 13px; color: var(--muted);">El sistema completo detras de la pagina</div>
+          </div>
+        </div>
+        <div style="border: 1px solid rgba(0,0,0,0.08); border-radius: 6px; padding: 18px 22px; display: flex; gap: 14px; grid-column: span 2;">
+          <span style="font-size: 12px; font-weight: 800; color: var(--gold); min-width: 20px;">07</span>
+          <div>
+            <div style="font-size: 14px; font-weight: 700; color: var(--dark-mid); margin-bottom: 2px;">Nuestra Propuesta y Garantia</div>
+            <div style="font-size: 13px; color: var(--muted);">Como garantizamos los resultados</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 3: AUDIT INTRO (off-white) -->
+<section class="section-offwhite">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">La Auditoria</span>
+      <h2 style="margin-bottom: 28px;">Hola Fernando, me llamo Daniel</h2>
+
+      <div class="finding-card">
+        <h4>Quien Soy</h4>
+        <p>Soy el fundador de Copy Estratega. Trabajamos con empresas y proyectos que ya tienen autoridad, producto y traccion, pero todavia no tienen el sistema digital que convierte esa audiencia en una base de datos propia y en inversores cualificados de forma predecible.</p>
+      </div>
+
+      <div class="finding-card">
+        <h4>Como te Encontre</h4>
+        <p>Lleve tiempo siguiendo la evolucion de Reental y el trabajo que estas haciendo en la expansion por America. Despues de hacer una auditoria completa de vuestra presencia digital, encontre varias cosas que merecia la pena compartir directamente contigo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 4: LINKEDIN (white) -->
+<section class="section-white">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Paso 1 de 3</span>
+      <h2 style="margin-bottom: 8px;">Tu LinkedIn</h2>
+      <a href="https://www.linkedin.com/in/fors/" target="_blank" class="url-chip">linkedin.com/in/fors/</a>
+
+      <p style="margin-bottom: 28px; font-weight: 600; color: var(--dark-mid);">Lo que encontre:</p>
+
+      <div class="finding-card">
+        <h4>Credenciales Ejecutivas Excepcionales</h4>
+        <p>MBA en IESE, programas en Harvard, Stanford, MIT y Berkeley, exCOO de Codere donde la empresa multiplico ingresos por diez y salio a bolsa con valoracion unicornio, Presidente de Intralot en EEUU, GP de tres fondos de inversion activos. Este es el perfil de alguien que genera confianza antes de decir una sola palabra sobre tokenizacion.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Autoridad Publicada Que Va Mas Alla de LinkedIn</h4>
+        <p>Eres autor de "Smarter Alternative Investments" y "Impacto 3.0", y colaboras como columnista en El Economista Argentina. Eso posiciona tu nombre en un nivel distinto al de cualquier otro ejecutivo del sector. Muy pocos founders en el espacio de tokenizacion inmobiliaria tienen ese nivel de presencia editorial.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Contenido Activo Sobre Tokenizacion</h4>
+        <p>Tu actividad en LinkedIn refleja una voz con criterio sobre RWA, DeFi y el futuro de la inversion inmobiliaria. El contenido que publicas es el tipo de material que convierte a desconocidos en lectores habituales, y a lectores habituales en inversores potenciales.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Sin Destino Para Quien Quiere Dar El Siguiente Paso</h4>
+        <p>Alguien que lee tus posts, se interesa, y quiere saber mas antes de crear una cuenta con KYC completo, no tiene a donde ir. El unico CTA disponible desde tu perfil lleva directamente a la pagina de registro. Falta el escalon intermedio que captura ese interes antes de que se enfrie.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 5: WEBSITE (off-white) -->
+<section class="section-offwhite">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Paso 2 de 3</span>
+      <h2 style="margin-bottom: 8px;">Tu Web y Canales</h2>
+      <a href="https://www.reental.co" target="_blank" class="url-chip">reental.co</a>
+
+      <p style="margin-bottom: 28px; font-weight: 600; color: var(--dark-mid);">Lo que esta funcionando:</p>
+
+      <div class="finding-card">
+        <h4>Numeros de Prueba Social Que Impactan</h4>
+        <p>38.121 usuarios registrados, 106 paises, 112 proyectos tokenizados, mas de 100 millones de dolares tokenizados, 16,5% de rentabilidad media anual en proyectos cerrados. Estos datos tienen el peso suficiente para cerrar la duda de cualquier inversor que este comparando plataformas.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Cobertura de Prensa de Primer Nivel</h4>
+        <p>Forbes Espana, Forbes Argentina, La Vanguardia, El Mundo, Infobae, El Pais, Expansion, La Nacion, El Economista, iProUP. Esa cobertura es una credencial que la mayoria de startups del sector tardan anos en conseguir, y Reental ya la tiene.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Marco Regulatorio Explicito Como Diferenciador</h4>
+        <p>Reg D 506(c)/Reg S en EEUU y marco CNMV en Espana. En un sector donde abundan los proyectos sin respaldo regulatorio claro, que Reental lo explicite en la web es una senal de seriedad que filtra al inversor que busca seguridad juridica.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Estructura de Producto Clara y Escalonada</h4>
+        <p>Reental para inversores retail desde 100 euros, Reental Wealth para grandes patrimonios con asesor dedicado, Reenlever para colateralizacion DeFi, Reental Club con tiers de beneficios. Esa arquitectura de producto muestra un negocio pensado para crecer con el inversor.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Blog Activo Con Contenido de Alto Valor</h4>
+        <p>Ocho posts en los ultimos seis meses sobre rentabilidad inmobiliaria, tokenizacion, fiscalidad, y guias de inversion. Ese contenido atrae trafico organico de personas que estan activamente investigando como invertir mejor su capital.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 6: ADS + TECH (white) -->
+<section class="section-white">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Paso 3 de 3</span>
+      <h2 style="margin-bottom: 8px;">Tus Anuncios y Stack Tecnico</h2>
+      <a href="https://adstransparency.google.com/?domain=reental.co" target="_blank" class="url-chip">Google Ads Transparency: reental.co</a>
+
+      <div class="finding-card">
+        <h4>48 Anuncios Activos en Google</h4>
+        <p>Rental Token S.L. (anunciante verificado) tiene 48 variaciones activas entre Display, Search y ads con integracion de WhatsApp. Los mensajes principales: "14% Rentabilidad Media Anual", "Real Estate Investing 3.0", ingresos pasivos, inversion sin hipoteca. Presupuesto publicitario real y activo.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Landing Page de Destino Sin Capa de Captura</h4>
+        <p>Todo ese presupuesto dirige a landing.reental.co, una pagina con un titular generico y dos botones de "Registrate Hoy". Sin lead magnet, sin email gate, sin video, sin social proof visible. El trafico de pago llega a una pagina que pide un compromiso mayor (registro con KYC) sin ofrecer nada a cambio primero.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Pixels Instalados y Medicion Activa</h4>
+        <p>Google Analytics GA4, Facebook Pixel y Hotjar confirmados en el source de la pagina. La infraestructura de medicion esta bien. Se sabe cuanto trafico llega. Lo que no existe es el mecanismo que captura ese trafico antes de que se vaya.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Sin Plataforma de Email Marketing Visible en el Funnel de Captacion</h4>
+        <p>No se detecta ninguna plataforma de email marketing conectada al funnel de adquisicion de nuevos leads. Las comunicaciones por email parecen operar solo dentro del ecosistema de usuarios registrados. Todo el trafico externo que no convierte en registro desaparece sin captura.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 7: TRANSITION (dark) -->
+<section class="section-dark">
+  <div class="container">
+    <div class="transition-card">
+      <span class="section-label">Los Problemas</span>
+      <h2 style="margin-bottom: 20px;">Ahora que sabemos lo que hay...</h2>
+      <p>Esto es lo que esos hallazgos revelan sobre lo que te esta costando leads cualificados cada dia.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 8: PROBLEM 1 (white) -->
+<section class="section-white">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Problema 1 de 3</span>
+      <h2 style="margin-bottom: 20px;">Todo el Presupuesto Publicitario Llega a una Pagina Que Solo Pide Registro</h2>
+      <p>Reental invierte activamente en Google Ads, 48 variaciones activas. Pero la landing page de destino de todos esos anuncios (landing.reental.co) solo tiene un titular que dice "Real Estate Investing 3.0" y dos botones de "Registrate Hoy". No hay lead magnet, no hay video, no hay email gate, no hay prueba social visible. Para alguien que acaba de descubrir la tokenizacion inmobiliaria, crear una cuenta con validacion de identidad completa es un salto enorme desde un primer clic de anuncio. La mayoria de ese trafico se pierde sin convertir, y sin dejar rastro.</p>
+
+      <p style="font-weight: 600; color: var(--dark-mid); margin-top: 32px; margin-bottom: 16px;">Asi es como se ve el recorrido del comprador hoy:</p>
+
+      <div class="journey" style="border-left-color: var(--gold-border);">
+        <div class="journey-step" style="border-left: none;">
+          <div class="journey-dot" style="background: var(--white); border-color: var(--gold);"></div>
+          <h4 style="color: var(--dark-mid) !important;">Prospecto ve un anuncio de Reental</h4>
+          <p style="color: var(--body-text) !important;">El mensaje le llama la atencion: 14% de rentabilidad media anual, inversion inmobiliaria desde 100 euros, sin hipoteca ni gestion. Hace clic.</p>
+        </div>
+        <div class="journey-step">
+          <div class="journey-dot" style="background: var(--white); border-color: var(--gold);"></div>
+          <h4 style="color: var(--dark-mid) !important;">Llega a landing.reental.co</h4>
+          <p style="color: var(--body-text) !important;">Ve un titular generico, dos botones de registro y referencias legales. No hay nada que le explique por que Reental es diferente, ni nada que le ofrezca valor antes de pedirle sus datos.</p>
+        </div>
+        <div class="journey-step">
+          <div class="journey-dot" style="background: var(--white); border-color: var(--gold);"></div>
+          <h4 style="color: var(--dark-mid) !important;">No esta listo para registrarse todavia</h4>
+          <p style="color: var(--body-text) !important;">Quiza acaba de conocer la tokenizacion. Quiza quiere investigar mas. Quiza el momento no es el correcto. Se dice a si mismo que volvera mas tarde.</p>
+        </div>
+        <div class="journey-step">
+          <div class="journey-dot" style="background: var(--white); border-color: var(--gold);"></div>
+          <h4 style="color: var(--dark-mid) !important;">Cierra la pestana</h4>
+          <p style="color: var(--body-text) !important;">No vuelve. No hay email de nurture porque no se capturo su direccion. Cuando finalmente esta listo para invertir, encuentra a otro. Cada euro invertido en ads que no tiene una capa de captura antes del registro es un euro que trabaja al minimo de su potencial.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 9: PROBLEM 2 (off-white) -->
+<section class="section-offwhite">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Problema 2 de 3</span>
+      <h2 style="margin-bottom: 20px;">38.121 Usuarios Registrados Sin Sistema de Nurture Visible Entre Registro y Primera Inversion</h2>
+      <p>Reental tiene una de las bases de datos de inversores registrados mas grandes de Europa en tokenizacion inmobiliaria. Pero entre "me he registrado" y "he realizado mi primera inversion" no hay evidencia de una secuencia de emails estructurada que guie ese proceso.</p>
+
+      <div class="finding-card" style="margin-top: 28px;">
+        <h4>El Registro No Es El Final del Funnel, Es El Principio</h4>
+        <p>Un usuario que completa el KYC pero no invierte en los primeros 30 dias tiene una probabilidad muy alta de no invertir nunca. Ese periodo critico necesita una secuencia de emails que entregue valor, resuelva dudas y construya confianza de forma sistematica, no dependiendo de que el usuario vuelva a la plataforma por iniciativa propia.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Los Mejores Clientes Necesitan Mas Touchpoints</h4>
+        <p>El inversor con mayor capacidad de inversion (el perfil Wealth, el que puede poner 10.000 euros o mas) es precisamente el que tarda mas en decidir y el que necesita mas puntos de contacto antes de comprometerse. Sin nurture, ese perfil de alto valor se enfria antes de que el equipo de Wealth tenga la oportunidad de hablar con el.</p>
+      </div>
+      <div class="finding-card">
+        <h4>Una Base de Datos de 38.000 Registrados Es un Activo Enorme</h4>
+        <p>Si una fraccion de esos usuarios que nunca llegaron a invertir recibiera una secuencia de emails bien construida, la recuperacion de esa base de datos sola justificaria el sistema completo. Esos datos ya existen. Lo que falta es activarlos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 10: PROBLEM 3 (white) -->
+<section class="section-white">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Problema 3 de 3</span>
+      <h2 style="margin-bottom: 20px;">Instagram 17.700, LinkedIn 7.396, YouTube Activo, Blog Activo. Ninguno Conectado a una Base de Datos Propia.</h2>
+      <a href="https://www.instagram.com/reental.co/" target="_blank" class="url-chip" style="margin-right: 8px;">@reental.co</a>
+      <a href="https://www.linkedin.com/company/reental/" target="_blank" class="url-chip">Reental LinkedIn</a>
+
+      <p>Reental tiene una presencia de contenido real y consistente: 17.700 seguidores en Instagram con 1.245 publicaciones, 7.396 seguidores en LinkedIn con actividad semanal, canal de YouTube con contenido educativo sobre tokenizacion, blog activo con ocho posts en los ultimos seis meses. Esa maquinaria de contenido funciona. El problema es que todo ese esfuerzo dirige a los mismos dos botones de "Registrate Hoy", sin ningun paso intermedio que capture el interes de quien todavia no esta listo para el KYC.</p>
+
+      <div class="finding-card" style="margin-top: 28px; background: var(--gold-light); border-color: var(--gold-border);">
+        <h4>Lo que deberia existir en su lugar</h4>
+        <p>Una capa de captura de email conectada a cada canal. Cada post de Instagram, cada video de YouTube, cada articulo del blog, cada publicacion de LinkedIn deberia tener una llamada a la accion hacia un recurso de alto valor descargable o accesible a cambio de un email. Ese email entra en una base de datos que Reental controla y que no depende del algoritmo de Instagram, de las politicas de LinkedIn, ni de la continuidad de YouTube. La audiencia social es prestada. La base de datos de emails es tuya para siempre.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 11: NUMBERS (dark) -->
+<section class="section-dark">
+  <div class="container">
+    <div class="card card-dark">
+      <span class="section-label">Los Numeros</span>
+      <h2 style="margin-bottom: 16px;">Lo que ese agujero cuesta cada mes</h2>
+      <p>En Reental, con tickets medios de inversion entre 1.000 y 5.000 euros y proyectos de alto valor para el segmento Wealth, incluso una mejora moderada en la captacion de leads cambia el resultado mensual de forma significativa. Todas las estimaciones son conservadoras.</p>
+
+      <div class="stats-grid" style="margin-top: 36px;">
+        <div class="stat-block">
+          <div class="stat-number">0%</div>
+          <div class="stat-label">Tasa actual de captura de email antes del registro</div>
+          <div class="stat-desc">Todo el trafico que llega desde ads, blog, Instagram, LinkedIn y YouTube y no convierte en registro se va sin dejar ningun dato. Cada visita no convertida es un prospecto perdido para siempre.</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">25.100+</div>
+          <div class="stat-label">Seguidores sociales sin conexion a BBDD propia</div>
+          <div class="stat-desc">Instagram (17.700) mas LinkedIn (7.396), mas audiencia de YouTube. Cada uno de esos seguidores vive en una plataforma prestada. Si Instagram cambia su algoritmo manana, ese alcance puede desaparecer.</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">38.121</div>
+          <div class="stat-label">Usuarios registrados sin nurture de email visible</div>
+          <div class="stat-desc">Esa base de datos ya existe. Una campana de reactivacion hacia usuarios registrados que nunca invirtieron puede convertir datos dormidos en inversores activos sin captar un solo lead nuevo.</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-number">60 dias</div>
+          <div class="stat-label">Tiempo medio antes de que un prospecto tibio se enfrie</div>
+          <div class="stat-desc">Un inversor potencial que descubre Reental hoy y no recibe ningun seguimiento tiene una probabilidad muy alta de haber olvidado la plataforma en dos meses. Con nurture activo, ese mismo prospecto puede estar listo para invertir a los 45 dias.</div>
+        </div>
+      </div>
+
+      <hr class="gold-rule" style="margin: 40px 0 24px;">
+      <p style="font-size: 15px; color: rgba(255,255,255,0.7);">Un sistema de captacion que convierta el 3% de la audiencia social en leads de email, y el 10% de esos leads en inversores de primer ticket, representa cientos de nuevos inversores al ano sin aumentar un solo euro el presupuesto de ads.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 12: LEAD MAGNETS (white) -->
+<section class="section-white">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Lead Magnets Sugeridos</span>
+      <h2 style="margin-bottom: 12px;">Cinco ideas basadas en lo que Reental ya tiene</h2>
+      <p style="margin-bottom: 32px;">Cada una de estas ideas esta pensada para capturar al prospecto justo antes del registro.</p>
+
+      <div>
+        <!-- Lead Magnet 1 - featured -->
+        <div class="lm-item-featured" style="margin-bottom: 12px;">
+          <span class="lm-badge">Pagina de ejemplo construida</span>
+          <div class="lm-title" style="font-size: 15px;">1. "La Guia del Inversor en Ladrillo Tokenizado 2026: Como Generar un 14% Anual sin Comprar, Gestionar ni Hipotecarte"</div>
+          <p class="lm-desc">Una guia practica para ahorradores e inversores de Espana y America Latina que conocen el sector inmobiliario pero nunca han explorado la tokenizacion. Explica el modelo, muestra datos reales de proyectos cerrados, desmonta los miedos mas comunes (regulacion, seguridad, liquidez) y presenta a Reental como la solucion evidente. Este es el lead magnet alrededor del cual estan construidas las paginas de ejemplo que ves a continuacion.</p>
+        </div>
+
+        <!-- Lead Magnets 2-5 -->
+        <ul class="lm-list">
+          <li class="lm-item">
+            <span class="lm-num">2</span>
+            <div>
+              <div class="lm-title">"Calculadora de Rendimientos Tokenizados: Cuanto Habrias Ganado Invirtiendo X Euros en Proyectos Reales de Reental"</div>
+              <p class="lm-desc">Una herramienta interactiva que permite al usuario introducir un capital hipotetico y ver los rendimientos que habria obtenido en proyectos cerrados reales de Reental. El usuario obtiene un resultado personalizado e inmediato. Reental obtiene el email y un dato precioso: cuanto capital esta dispuesto a mover ese prospecto.</p>
+            </div>
+          </li>
+          <li class="lm-item">
+            <span class="lm-num">3</span>
+            <div>
+              <div class="lm-title">"El Informe de Rentabilidad Reental 2025: Datos Reales de 112 Proyectos Tokenizados en 6 Paises"</div>
+              <p class="lm-desc">Un documento de autoridad con los datos reales de todos los proyectos cerrados: rentabilidad por mercado, comparativa con inversion inmobiliaria tradicional, tiempos de cierre. Posiciona a Reental como la plataforma mas transparente del sector y capta al perfil de inversor mas riguroso, que es exactamente el perfil de mayor ticket.</p>
+            </div>
+          </li>
+          <li class="lm-item">
+            <span class="lm-num">4</span>
+            <div>
+              <div class="lm-title">"Los 5 Mitos Sobre la Inversion Tokenizada Que Alejan a los Inversores del 14% Anual"</div>
+              <p class="lm-desc">Contenido de refutacion directa para los segmentos de audiencia que tienen objeciones activas (es arriesgado, no esta regulado, no lo entiendo, no es para mi). Perfecto para distribuir en LinkedIn y YouTube como paso previo a la captacion.</p>
+            </div>
+          </li>
+          <li class="lm-item">
+            <span class="lm-num">5</span>
+            <div>
+              <div class="lm-title">"El Mapa del Inversor Internacional: Como Diversificar en Espana, Mexico, Argentina y EEUU desde 100 Euros sin Abrir una Cuenta en Cada Pais"</div>
+              <p class="lm-desc">Un recurso especialmente valioso para el perfil latinoamericano que Fernando esta trabajando desde Miami. Explica las ventajas de la diversificacion geografica que Reental ya ofrece y convierte una de las fortalezas diferenciales de la plataforma en un argumento de captacion.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 13: EXAMPLE PAGES (off-white) -->
+<section class="section-offwhite">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Las Paginas de Ejemplo</span>
+      <h2 style="margin-bottom: 12px;">No Solo Encontramos el Problema</h2>
+      <p style="margin-bottom: 36px;">Construimos la solucion. Aqui tienes dos versiones mejoradas de landing.reental.co como paginas de captacion dedicadas al Lead Magnet 1. Una en espanol para el mercado de Espana y America Latina. Una en ingles para el mercado de EEUU y clientes internacionales.</p>
+
+      <!-- ES Landing Page Preview -->
+      <a href="https://danigdecelis.github.io/reental-funnel/" target="_blank" class="preview-card">
+        <div class="preview-hero preview-hero-es">
+          <div class="preview-badge">GUIA GRATUITA 2026</div>
+          <div class="preview-headline">Gana Hasta un <span>16% Anual</span> Invirtiendo en Inmuebles Reales Desde 100€</div>
+          <div class="preview-subtext">Mas de 38.000 inversores en 106 paises ya cobran rentas mensuales sin hipotecas, sin gestiones y sin minimos bancarios.</div>
+          <div class="preview-cta">Descargar la Guia Gratuita</div>
+        </div>
+        <div class="preview-bar">
+          <span class="preview-url">danigdecelis.github.io/reental-funnel/</span>
+          <span class="preview-link">Ver la pagina en vivo &rarr;</span>
+        </div>
+      </a>
+
+      <!-- EN Landing Page Preview -->
+      <a href="https://danigdecelis.github.io/reental-funnel-en/" target="_blank" class="preview-card">
+        <div class="preview-hero preview-hero-en">
+          <div class="preview-badge">FREE GUIDE 2026</div>
+          <div class="preview-headline">Earn Up to <span>16% Annual Returns</span> in Real Estate From Just €100</div>
+          <div class="preview-subtext">Over 38,000 investors in 106 countries already collect monthly rental income with no mortgage, no bank minimums.</div>
+          <div class="preview-cta">Download the Free Guide</div>
+        </div>
+        <div class="preview-bar">
+          <span class="preview-url">danigdecelis.github.io/reental-funnel-en/</span>
+          <span class="preview-link">View live page &rarr;</span>
+        </div>
+      </a>
+
+      <div class="finding-card" style="margin-top: 28px; background: var(--white);">
+        <h4>Que cambiamos respecto a landing.reental.co</h4>
+        <p>El mismo branding de Reental. El mismo posicionamiento y autoridad visual. Titular reescrito que explica el valor real desde el primer segundo. Email gate antes del registro. CTA que convierte visitantes en leads antes de pedirles el KYC. En lugar de trafico que llega a un titular generico y dos botones de registro directo, creamos un sistema donde el trafico entra a una pagina de lead magnet, captura el email, activa una secuencia de nurture automatizada, motiva el registro, y lleva a la primera inversion.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 14: WHAT ELSE (white) -->
+<section class="section-white">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Que Mas Construiriamos</span>
+      <h2 style="margin-bottom: 32px;">El sistema completo detras de la pagina</h2>
+
+      <div style="margin-bottom: 36px;">
+        <div style="display: flex; gap: 18px; margin-bottom: 28px; align-items: flex-start;">
+          <div class="num-badge-light">1</div>
+          <div>
+            <h3 style="margin-bottom: 10px;">Sistema de Captacion Multicanal Hacia BBDD Propia</h3>
+            <p>Reental ya tiene los canales. Instagram con 17.700 seguidores publica contenido de calidad. LinkedIn con 7.396 seguidores mueve publicaciones semanales. YouTube tiene videos educativos que generan confianza. El blog produce contenido que atrae trafico organico. Y hay 48 anuncios activos en Google dirigiendo trafico de pago. El problema no es la ausencia de canales. El problema es que ninguno de esos canales tiene una llamada a la accion que capture el email del prospecto antes de pedirle el registro.</p>
+            <p>Lo que construimos: una capa de captura conectada a cada canal. El link en bio de Instagram apunta al lead magnet en lugar del registro. Los videos de YouTube terminan con un CTA hacia el recurso descargable. Cada post de LinkedIn que habla de rentabilidad inmobiliaria lleva a quien quiere saber mas hacia la guia, no hacia el formulario de KYC. El blog tiene un formulario de captura integrado al final de cada articulo. Los anuncios de Google dirigen a la landing page mejorada con email gate.</p>
+          </div>
+        </div>
+        <hr class="gold-rule">
+        <div style="display: flex; gap: 18px; margin-bottom: 28px; align-items: flex-start;">
+          <div class="num-badge-light">2</div>
+          <div>
+            <h3 style="margin-bottom: 10px;">Secuencia de Email Marketing Automatizada</h3>
+            <p>Una vez que el prospecto entra en la base de datos, el trabajo no termina ahi. Construimos una secuencia de emails automatizada que acompana al prospecto desde "acabo de descargar la guia" hasta "estoy listo para crear mi cuenta y hacer mi primera inversion". La secuencia no es un pitch. Es una serie de contenidos que entregan valor progresivo: datos reales de rentabilidad, casos de proyectos concretos, respuestas anticipadas a las objeciones mas comunes (esta esto regulado, que pasa si quiero vender mis tokens, como tributa esto en mi pais), y razonamientos que construyen confianza antes de cualquier conversacion comercial.</p>
+          </div>
+        </div>
+        <hr class="gold-rule">
+        <div style="display: flex; gap: 18px; align-items: flex-start;">
+          <div class="num-badge-light">3</div>
+          <div>
+            <h3 style="margin-bottom: 10px;">Reactivacion de la Base de Datos Existente</h3>
+            <p>38.121 usuarios registrados es un activo enorme que ya existe. Una parte de esos usuarios completo el KYC pero nunca realizo su primera inversion. Otra parte invirtio una vez y no ha vuelto. Construimos una campana de reactivacion segmentada para esos perfiles: mensajes diferentes para quien nunca invirtio, para quien invirtio y no ha repetido, y para quien tiene capacidad de escalar a Reental Wealth. Sin captar un solo lead nuevo, esa reactivacion puede generar un volumen significativo de inversiones desde datos que ya estan en la plataforma.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 15: GUARANTEE (off-white) -->
+<section class="section-offwhite">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Nuestra Propuesta y Garantia</span>
+      <h2 style="margin-bottom: 28px;">Resultados garantizados o seguimos sin coste</h2>
+
+      <div class="guarantee-box">
+        <div class="guarantee-quote">"Tendremos tu sistema de captacion completamente activo en 30 dias y generando inversores cualificados dentro de 90 dias. Si no lo logramos, seguimos trabajando sin coste hasta que lo logremos."</div>
+      </div>
+
+      <p style="font-weight: 600; color: var(--dark-mid); margin-bottom: 28px;">Asi es exactamente como funciona:</p>
+
+      <div class="guarantee-steps">
+        <div class="guarantee-step">
+          <div class="g-num">1</div>
+          <div>
+            <div class="g-who">Los Dos</div>
+            <div class="g-title">Llamada Inicial</div>
+            <div class="g-desc">Planificamos el sistema completo: lead magnet, landing pages, secuencia de email, configuracion de canales y estrategia de trafico multicanal. Arranque en 7 a 10 dias habiles.</div>
+          </div>
+        </div>
+        <div class="guarantee-step">
+          <div class="g-num">2</div>
+          <div>
+            <div class="g-who">Tu</div>
+            <div class="g-title">Compartir Acceso</div>
+            <div class="g-desc">Backend de la web, cuenta de email marketing, y assets de marca. Eso es todo lo que necesitamos de tu lado.</div>
+          </div>
+        </div>
+        <div class="guarantee-step">
+          <div class="g-num">3</div>
+          <div>
+            <div class="g-who">Nosotros</div>
+            <div class="g-title">Construir y Desplegar las Landing Pages</div>
+            <div class="g-desc">Ya estan en vivo. Version en espanol y version en ingles, con el branding de Reental y el email gate integrado.</div>
+          </div>
+        </div>
+        <div class="guarantee-step">
+          <div class="g-num">4</div>
+          <div>
+            <div class="g-who">Nosotros</div>
+            <div class="g-title">Escribir y Cargar la Secuencia de Email de Nurture</div>
+            <div class="g-desc">Secuencia completa cargada en tu plataforma de email y lista para dispararse en el momento en que alguien descarga el lead magnet.</div>
+          </div>
+        </div>
+        <div class="guarantee-step">
+          <div class="g-num">5</div>
+          <div>
+            <div class="g-who">Nosotros</div>
+            <div class="g-title">Conectar Todos Los Canales Al Sistema de Captacion</div>
+            <div class="g-desc">Instagram, LinkedIn, YouTube, blog y ads apuntando a la pagina de lead magnet con tracking UTM configurado para medir cada canal por separado.</div>
+          </div>
+        </div>
+        <div class="guarantee-step">
+          <div class="g-num">6</div>
+          <div>
+            <div class="g-who">Nosotros</div>
+            <div class="g-title">Configurar el Stack de Medicion</div>
+            <div class="g-desc">Dashboard de conversion para saber exactamente cuantos leads entran por cada canal, que secuencia los convierte mejor y donde esta el cuello de botella en cada momento.</div>
+          </div>
+        </div>
+        <div class="guarantee-step">
+          <div class="g-num">7</div>
+          <div>
+            <div class="g-who">Nosotros</div>
+            <div class="g-title">Entregar Todo Listo Para Lanzar</div>
+            <div class="g-desc">Sistema completo probado, verificado y en vivo. Sin trabajo adicional de tu parte a partir de este punto. Si el sistema no esta generando inversores cualificados en 90 dias, seguimos trabajando sin coste hasta que lo este.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 16: CTA 1 (dark) -->
+<section class="section-dark">
+  <div class="container">
+    <div class="cta-section cta-top-rule">
+      <span class="section-label">Listo Para Dar El Siguiente Paso?</span>
+      <h2 style="margin-bottom: 28px;">Hablamos cuando quieras</h2>
+
+      <div class="cta-email-block">
+        Responde directamente al mensaje que te envie y arrancamos la conversacion de inmediato.
+      </div>
+
+      <div class="cta-or">O</div>
+
+      <button class="cta-btn" onclick="Calendly.initPopupWidget({url:'https://calendly.com/danigdecelis/meeting'});return false;">
+        Reservar Una Llamada
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 17: FAQ (white) -->
+<section class="section-white">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Preguntas Frecuentes</span>
+      <h2 style="margin-bottom: 32px;">Lo que suelen preguntar</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">Esta todo hecho por vosotros?</div>
+        <p class="faq-a">Si. Nos encargamos de todo desde la construccion hasta el lanzamiento. Vosotros revisais, aprobais, y lo ponemos en marcha. No necesitamos ninguna intervencion tecnica de vuestro equipo.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Que incluye el engagement completo?</div>
+        <p class="faq-a">Las dos landing pages (espanol e ingles) con branding de Reental y email gate integrado, la secuencia de email de nurture completa cargada en vuestra plataforma, la configuracion de todos los canales sociales y de ads para dirigir trafico al sistema de captacion, el tracking UTM y el dashboard de conversion, y 90 dias de monitorizacion y ajustes activos.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Cuanto tiempo tardan en empezar?</div>
+        <p class="faq-a">Arranque en 7 a 10 dias habiles desde la primera llamada. Las landing pages ya estan en vivo y son vuestras desde hoy.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Que necesitan de nuestra parte?</div>
+        <p class="faq-a">Acceso al backend de la web, una cuenta de plataforma de email marketing (si no tienen una os recomendamos cual usar), y los assets de marca. Eso es todo.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Cuanto cuesta?</div>
+        <p class="faq-a">Hablamos de inversion en la llamada. Las landing pages ya estan construidas y son vuestras independientemente de lo que decidais.</p>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Cual es la garantia exactamente?</div>
+        <p class="faq-a">Sistema completo activo en 30 dias y generando inversores cualificados en 90 dias. Si no lo logramos, seguimos trabajando sin coste hasta que lo logremos. Sin letra pequena.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 18: ABOUT (off-white) -->
+<section class="section-offwhite">
+  <div class="container">
+    <div class="card card-light">
+      <span class="section-label">Sobre Daniel</span>
+      <div class="about-card">
+        <div class="about-header">
+          <img src="https://danigdecelis.github.io/factor-rh-strategy/daniel-photo.png" alt="Daniel Garcia de Celis" class="about-photo">
+          <div>
+            <div class="about-name">Daniel Garcia de Celis</div>
+            <p class="about-title">Fundador, Copy Estratega</p>
+            <div class="about-links">
+              <a href="https://calendly.com/danigdecelis/meeting" target="_blank" class="about-link">Reservar llamada</a>
+            </div>
+          </div>
+        </div>
+        <p class="about-bio">Copy Estratega trabaja con empresas y proyectos que ya tienen autoridad, producto y traccion en el mercado, pero todavia no tienen el sistema digital que convierte esa audiencia en una base de datos propia y en clientes o inversores cualificados de forma predecible. Construimos esa infraestructura: el lead magnet, la landing page, la secuencia de email y el sistema de captacion multicanal que hace que cada post, cada video, cada anuncio y cada visita organica se traduzca en un lead real dentro de una base de datos que te pertenece. Sin depender del algoritmo. Sin perder trafico de pago. Con un sistema que trabaja mientras tu haces tu trabajo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARD 19: FINAL CTA (dark) -->
+<section class="section-dark">
+  <div class="container">
+    <div class="cta-section cta-top-rule">
+      <span class="section-label">Vamos a Empezar</span>
+      <h2 style="margin-bottom: 28px;">Un solo paso para arrancar</h2>
+
+      <div class="cta-email-block">
+        Responde al mensaje que te envie y en menos de 24 horas planificamos el siguiente paso juntos.
+      </div>
+
+      <div class="cta-or">O</div>
+
+      <button class="cta-btn" onclick="Calendly.initPopupWidget({url:'https://calendly.com/danigdecelis/meeting'});return false;">
+        Reservar Una Llamada
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <img src="https://danigdecelis.github.io/factor-rh-strategy/logo-ca.png" alt="Copy Estratega">
+  <span class="footer-copy">2026 Copy Estratega. Todos los derechos reservados.</span>
+</footer>
+
+</body>
+</html>
